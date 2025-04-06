@@ -31,7 +31,6 @@ const Banner = () => {
     <div className="max-w-7xl mx-auto   overflow-hidden shadow-xl">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 3500 }}
         loop={true}
